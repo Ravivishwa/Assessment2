@@ -10,6 +10,30 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+    <div class="container">
+    <div class="page-header">
+      <center><h1>Assessment 2</h1></center>
+      <pre>
+Create a HTML page as shown in the image with three div one inside the other.
+&lt;body&gt;
+    &lt;div id=&quot;div-one&quot;&gt;
+        &lt;div id=&quot;div-two&quot;&gt;
+            &lt;div id=&quot;div-three&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+Attach click event to all the divs using jquery 
+$(&quot;div&quot;).on(&#39;click&#39;,testClick) ;
+create method testClick which will ONLY alert the id of the div which was clicked
+and no other alters should be triggered.
+      </pre> 
+    </div>    
+  </div>
+
+<div class="container main">
   <div id="div-one">
       <h3>This is div-one</h3>
     <div id="div-two">

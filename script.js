@@ -1,4 +1,4 @@
-$("div").on("click", function() {
+$('.main').find('div').on("click", function() {
 	event.stopPropagation();
     alert(this.id);
 });
